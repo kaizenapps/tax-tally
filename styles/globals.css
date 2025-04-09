@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS Variables */
+:root {
+  --background: #0d2b2a;  /* Teal-ish background */
+  --foreground: #0a5858;  /* Lighter teal text */
+  /* You can add more custom properties as needed */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Dark Mode Overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #103633; /* Deeper teal for dark mode */
+    --foreground: #d1f2f1; /* Lighter teal text for dark mode */
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+  Assume your layout is something like:
+  
+  <header> ... </header>
+  <main> ... </main>
+  <footer> ... </footer>
+  
+  We want the grid overlay on the <main> content only.
+*/
+
+/* Ensure the main element is positioned */
+main {
+  position: relative;
+  z-index: 1; /* Content above the grid overlay */
+}
+
+/* Grid Overlay on main content */
+main::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  background-size: 20px 20px; /* Adjust grid cell size here */
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.3) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.3) 1px,
+      transparent 1px
+    );
+  opacity: 0.3; /* 30% transparent */
+}
