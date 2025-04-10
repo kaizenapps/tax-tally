@@ -20,7 +20,7 @@ export default function Home() {
         {/* Main Content */}
         <main className="flex-grow">
           {/* Hero Section */}
-          <section className="bg-gray-100 py-24">
+          <section className="flashing-grid py-35">
             <div className="container mx-auto px-6 text-center space-y-8">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Simplify Your Tax Filing
@@ -28,14 +28,24 @@ export default function Home() {
               <p className="text-xl mb-10 max-w-2xl mx-auto">
                 Welcome to Tax Tally - the modern, hassle-free tax filing solution powered by Telegram and WhatsApp bots.
               </p>
-              <a
-                href="https://t.me/TaxTallyBot"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#0088cc] hover:bg-[#006699] text-white font-semibold py-4 px-10 rounded-lg inline-block transition-colors duration-200"
-              >
-                Try on Telegram
-              </a>
+              <div className="flex flex-col sm:flex-row justify-center items-center gap-4 w-full">
+                <a
+                  href="https://t.me/TaxTallyBot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-[200px] h-[56px] flex items-center justify-center bg-[#0088cc] hover:bg-[#006699] text-white font-semibold text-[clamp(14px,1vw,16px)] rounded-lg transition-colors duration-200"
+                >
+                  Try on Telegram
+                </a>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-[200px] h-[56px] flex items-center justify-center bg-[#075e54] hover:bg-[#128c7e] text-white font-semibold text-[clamp(14px,1vw,16px)] rounded-lg transition-colors duration-200"
+                >
+                  Coming Soon on WhatsApp
+                </a>
+              </div>
             </div>
           </section>
 
@@ -70,7 +80,7 @@ export default function Home() {
           </section>
 
           {/* Pricing Section */}
-          <section id="pricing" className="bg-gray-100 py-20">
+          <section id="pricing" className="flashing-grid py-20">
             <div className="container mx-auto px-4 text-center">
               <h2 className="text-3xl font-bold mb-4">Simple & Transparent Pricing</h2>
               <p className="text-xl mb-8">
