@@ -5,7 +5,8 @@
 
 /* Custom CSS Variables */
 :root {
-  --background: #ebfceb;
+  --background: #f6fef6;
+  --foreground: #cfc7fc;
   /* You can add more custom properties as needed */
 }
 
@@ -73,7 +74,7 @@ main {
   background-image:
     linear-gradient(
       to right,
-      rgba(5, 104, 71, 0.3) 1px,
+      rgba(98, 219, 178, 0.3) 1px,
       transparent 1px
     ),
     linear-gradient(
