@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Tax Tally - Simplify US Tax Filing</title>
+        <title>Tax Tally - Home</title>
         <meta
           name="description"
           content="Tax Tally is the modern, hassle-free tax filing solution powered by Telegram and WhatsApp bots."
@@ -26,7 +26,7 @@ export default function Home() {
                 Simplify Your Tax Filing
               </h1>
               <p className="text-xl mb-10 max-w-2xl mx-auto bg-green-50 p-4 rounded-lg">
-                <b>Welcome to Tax Tally - the modern, hassle-free tax filing solution powered by Telegram and WhatsApp bots.</b>
+                Welcome to Tax Tally - Chat based Tax Form Filling Assistant.
               </p>
               <div className="flex flex-col sm:flex-row justify-center items-center gap-4 w-full">
                 <a

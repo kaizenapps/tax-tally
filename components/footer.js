@@ -37,12 +37,10 @@ const Footer = () => {
           
           {/* Right Column - Location */}
           <div className="flex flex-col space-y-4 items-center text-center md:items-end md:text-right">
-            <h3 className="text-lg font-semibold mb-4">Business Location</h3>
-            <p className="text-gray-600 text-center md:text-right">
-              613 Brazelton Cir Suite A,<br/>
-              Vacaville, CA 95688,<br/>
-              United States
-            </p>
+            <h3 className="text-lg font-semibold mb-4">About Tax-Tally</h3>
+            <a href="/" className="text-gray-600 hover:text-[#0088cc]">Cookies Policy</a>
+            <a href="/" className="text-gray-600 hover:text-[#0088cc]">Privacy Policy</a>
+            <a href="/" className="text-gray-600 hover:text-[#0088cc]">Terms of Use</a>
           </div>
         </div>
         
