@@ -56,16 +56,16 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 <div className="bg-white rounded-xl shadow-lg p-8 transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1 text-center">
                   <div className="text-5xl mb-6 text-[#0088cc] bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">💬</div>
-                  <h3 className="text-xl font-bold mb-4">Chat-Based Filing</h3>
+                  <h3 className="text-xl font-bold mb-4">Chat-Based Filling</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Interact with our intuitive Telegram and WhatsApp bots for a seamless tax filing experience.
+                    Interact with our intuitive Telegram and WhatsApp bots for a seamless tax filling experience.
                   </p>
                 </div>
                 <div className="bg-white rounded-xl shadow-lg p-8 transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1 text-center">
                   <div className="text-5xl mb-6 text-[#0088cc] bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto">⚡</div>
                   <h3 className="text-xl font-bold mb-4">Fast & Efficient</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Enjoy lightning fast processing through advanced automation and APIs. Your taxes sorted in minutes.
+                    Enjoy lightning fast processing through advanced automation and APIs. 
                   </p>
                 </div>
                 <div className="bg-white rounded-xl shadow-lg p-8 transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1 text-center">
