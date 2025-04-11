@@ -14,20 +14,21 @@ const Header = () => {
             width={32}
             height={32}
             className="w-8 h-8"
+            priority
           />
           <div className="text-2xl font-bold text-emerald-800">Tax Tally</div>
         </Link>
         <nav>
           <ul className="flex space-x-6">
             <li>
-              <a href="pricing" className="hover:text-blue-600">
+              <Link href="/pricing" className="hover:text-blue-600">
                 <strong>Pricing</strong>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="contact" className="hover:text-blue-600">
+              <Link href="/contact" className="hover:text-blue-600">
                 <strong>Contact</strong>
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

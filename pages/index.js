@@ -20,7 +20,7 @@ export default function Home() {
         {/* Main Content */}
         <main className="flex-grow">
           {/* Hero Section */}
-          <section className="flashing-grid py-35">
+          <section className="flashing-grid py-24">
             <div className="container mx-auto px-6 text-center space-y-8">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Simplify Your Tax Filing

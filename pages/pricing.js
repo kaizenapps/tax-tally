@@ -7,7 +7,7 @@ export default function Pricing() {
   return (
     <>
       <Head>
-        <title>Tax Tally - Simple & Transparent Pricing</title>
+        <title>Tax Tally - Pricing</title>
         <meta
           name="description"
           content="File your taxes through Tax Tally for just $2.99 per form. No hidden fees, no subscriptions - just simple, transparent pricing."
