@@ -23,7 +23,7 @@ export default function Home() {
           <section className="flashing-grid py-24">
             <div className="container mx-auto px-6 text-center space-y-8">
               <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-green-50 p-4 rounded-lg">
-                Simplify Your Tax Filing
+                Simplify Your Tax Filling
               </h1>
               <p className="text-xl mb-10 max-w-2xl mx-auto bg-green-50 p-4 rounded-lg">
                 Welcome to Tax Tally - Chat based Tax Form Filling Assistant.
