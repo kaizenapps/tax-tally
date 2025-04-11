@@ -39,7 +39,6 @@ const Footer = () => {
           <div className="flex flex-col space-y-4 items-center text-center md:items-end md:text-right">
             <h3 className="text-lg font-semibold mb-4">About Tax-Tally</h3>
             <a href="/" className="text-gray-600 hover:text-[#0088cc]">Cookies Policy</a>
-            <a href="/" className="text-gray-600 hover:text-[#0088cc]">Privacy Policy</a>
             <a href="/" className="text-gray-600 hover:text-[#0088cc]">Terms of Use</a>
           </div>
         </div>
