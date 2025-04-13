@@ -13,9 +13,9 @@ export default async function handler(req, res) {
   //   return res.status(401).json({ error: 'Unauthorized' });
   // }
 
-  const { pdfUrl, botUserId, extraData } = req.body;
+  const { pdfUrl, extraData } = req.body;
 
-  if (!pdfUrl || !botUserId) {
+  if (!pdfUrl) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
 
@@ -25,7 +25,6 @@ export default async function handler(req, res) {
   const record = {
     id,
     pdfUrl,
-    botUserId,
     extraData: extraData || {},
     paymentStatus: 'pending',
     createdAt: new Date().toISOString()

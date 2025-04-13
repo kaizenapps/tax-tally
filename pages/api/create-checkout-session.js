@@ -23,8 +23,8 @@ export default async function handler(req, res) {
         },
         quantity: 1,
       }],
-      success_url: `https://taxtally.com/preview/${previewId}?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `https://taxtally.com/preview/${previewId}`,
+      success_url: `https://tax-tally.com/preview/${previewId}?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `https://tax-tally.com/preview/${previewId}`,
       metadata: { previewId }
     });
 
